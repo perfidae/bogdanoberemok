@@ -248,9 +248,13 @@ main {
 }
 
 .social-links img {
-    width: 42px;
-    height: 42px;
+    width: 48px;
+    height: 48px;
+    object-fit: contain;   /* або cover, якщо хочеш обрізання */
+    border-radius: 10px;   /* можна прибрати, якщо не потрібно */
+    display: block;
 }
+
 
 /* Footer */
 footer {
